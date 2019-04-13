@@ -59,7 +59,12 @@ kr.onhop.net = http, upstream-proxy-address=kr.onhop.net, upstream-proxy-port=44
 tw.onhop.net = http, upstream-proxy-address=tw.onhop.net, upstream-proxy-port=443, upstream-proxy-auth=false, over-tls=true, certificate=1
 gia.onhop.net = http, upstream-proxy-address=gia.onhop.net, upstream-proxy-port=443, upstream-proxy-auth=false, over-tls=true, certificate=1
 
-
+windmilltest.xyz = http, upstream-proxy-address=windmilltest.xyz, upstream-proxy-port=443, upstream-proxy-auth=false, over-tls=true, certificate=1
+chromeplugin1.windmilltest.xyz = http, upstream-proxy-address=chromeplugin1.windmilltest.xyz, upstream-proxy-port=443, upstream-proxy-auth=false, over-tls=true, certificate=1
+chromeplugin2.windmilltest.xyz = http, upstream-proxy-address=chromeplugin2.windmilltest.xyz, upstream-proxy-port=443, upstream-proxy-auth=false, over-tls=true, certificate=1
+chromeplugin3.windmilltest.xyz = http, upstream-proxy-address=chromeplugin3.windmilltest.xyz, upstream-proxy-port=443, upstream-proxy-auth=false, over-tls=true, certificate=1
+chromeplugin4.windmilltest.xyz = http, upstream-proxy-address=chromeplugin4.windmilltest.xyz, upstream-proxy-port=443, upstream-proxy-auth=false, over-tls=true, certificate=1
+chromeplugin5.windmilltest.xyz = http, upstream-proxy-address=chromeplugin5.windmilltest.xyz, upstream-proxy-port=443, upstream-proxy-auth=false, over-tls=true, certificate=1
 [SOURCE]
 Banana, server, https://dwz.cn/N2caiWhZ, false, true, true, Banana
 HK-Ladder, server, https://dwz.cn/9YS3Y2bw, false, true, true, HK-Ladder
