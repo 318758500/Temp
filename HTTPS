@@ -1,1 +1,1 @@
-http://d3d3LnBpY2tkb3duLm5ldDozMzg5ID0gaHR0cCwgdXBzdHJlYW0tcHJveHktYWRkcmVzcz13d3cucGlja2Rvd24ubmV0LCB1cHN0cmVhbS1wcm94eS1wb3J0PTMzODksIHVwc3RyZWFtLXByb3h5LWF1dGg9ZmFsc2UsIG92ZXItdGxzPXRydWUsIGNlcnRpZmljYXRlPTE=
+dc1.hk.flow.host = http, upstream-proxy-address=dc1.hk.flow.host, upstream-proxy-port=110, upstream-proxy-auth=true, upstream-proxy-username=roczhang@yeah.net, upstream-proxy-password=shrub6voyages2rifling, over-tls=true, certificate=1
