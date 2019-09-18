@@ -46,6 +46,7 @@ www.pickdown.net:80 = http, upstream-proxy-address=www.pickdown.net, upstream-pr
 www.pickdown.net:443 = http, upstream-proxy-address=www.pickdown.net, upstream-proxy-port=443, upstream-proxy-auth=false, over-tls=true, certificate=1
 www.pickdown.net:1443 = http, upstream-proxy-address=www.pickdown.net, upstream-proxy-port=1443, upstream-proxy-auth=false, over-tls=true, certificate=1
 www.pickdown.net:3389 = http, upstream-proxy-address=www.pickdown.net, upstream-proxy-port=3389, upstream-proxy-auth=false, over-tls=true, certificate=1
+www.copyplay.net:3389 = http, upstream-proxy-address=www.copyplay.net, upstream-proxy-port=3389, upstream-proxy-auth=false, over-tls=true, certificate=1
 
 hgc.tcpbbr.net = http, upstream-proxy-address=hgc.tcpbbr.net, upstream-proxy-port=443, upstream-proxy-auth=false, over-tls=true, certificate=1
 wtt.tcpbbr.net = http, upstream-proxy-address=wtt.tcpbbr.net, upstream-proxy-port=443, upstream-proxy-auth=false, over-tls=true, certificate=1
@@ -79,6 +80,9 @@ Banana, server, https://dwz.cn/N2caiWhZ, false, true, true, Banana
 HK-Ladder, server, https://dwz.cn/4NNKOlgY, false, true, true, HK-Ladder
 US-Ladder, server, https://dwz.cn/8Ut4KfkD, false, true, true, US-Ladder
 TunneILight, server, https://dwz.cn/ttvfCEQc, false, true, true, TunneILight
+旋风免费, server, https://dwz.cn/scQy4RlW, false, true, true, 旋风免费
+旋风黄金, server, https://dwz.cn/BaJMdIMV, false, true, true, 旋风黄金
+旋风超级, server, https://dwz.cn/jJzeTjE9, false, true, true, 旋风超级
 https(左滑选择替换), filter, https://dwz.cn/gkKpMxtr, true
 Hackl0us(左滑选择替换), filter, https://raw.githubusercontent.com/Hackl0us/Surge-Rule-Snippets/master/LAZY_RULES/Quantumult.conf, true
 lhie1(左滑选择替换), filter, https://raw.githubusercontent.com/lhie1/Rules/master/Quantumult/Quantumult.conf, true
