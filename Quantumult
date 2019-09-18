@@ -4,10 +4,6 @@
 #【Settings】——【Favorites】——【+】——【Filter】，输入名字（随意），填上链接地址，勾选Filter Action。找到选项，左滑选择【Replace】，然后【OK】。
 
 [SERVER]
-dc1.hk.flow.host = http, upstream-proxy-address=dc1.hk.flow.host, upstream-proxy-port=110, upstream-proxy-auth=true, upstream-proxy-username=roczhang@yeah.net, upstream-proxy-password=shrub6voyages2rifling, over-tls=true, certificate=1
-dc1-hk.flow.host = http, upstream-proxy-address=dc1-hk.flow.host, upstream-proxy-port=110, upstream-proxy-auth=true, upstream-proxy-username=roczhang@yeah.net, upstream-proxy-password=shrub6voyages2rifling, over-tls=true, certificate=1
-dc3.hk.flow.host = http, upstream-proxy-address=dc3.hk.flow.host, upstream-proxy-port=110, upstream-proxy-auth=true, upstream-proxy-username=roczhang@yeah.net, upstream-proxy-password=shrub6voyages2rifling, over-tls=true, certificate=1
-dc3-hk.flow.host = http, upstream-proxy-address=dc3-hk.flow.host, upstream-proxy-port=110, upstream-proxy-auth=true, upstream-proxy-username=roczhang@yeah.net, upstream-proxy-password=shrub6voyages2rifling, over-tls=true, certificate=1
 
 www.maikeer.org = http, upstream-proxy-address=www.maikeer.org, upstream-proxy-port=80, upstream-proxy-auth=true, upstream-proxy-username=o, upstream-proxy-password=<your password>, over-tls=true, certificate=1
 maikr.tech = http, upstream-proxy-address=maikr.tech, upstream-proxy-port=80, upstream-proxy-auth=true, upstream-proxy-username=o, upstream-proxy-password=<your password>, over-tls=true, certificate=1
@@ -76,6 +72,7 @@ chromeplugin11.windmilltest.xyz = http, upstream-proxy-address=chromeplugin11.wi
 chromeplugin12.windmilltest.xyz = http, upstream-proxy-address=chromeplugin12.windmilltest.xyz, upstream-proxy-port=443, upstream-proxy-auth=false, over-tls=true, certificate=1
 
 [SOURCE]
+HTTPS, server, https://dwz.cn/g1BtypMb, false, true, true, HTTPS--
 Banana, server, https://dwz.cn/N2caiWhZ, false, true, true, Banana
 HK-Ladder, server, https://dwz.cn/4NNKOlgY, false, true, true, HK-Ladder
 US-Ladder, server, https://dwz.cn/8Ut4KfkD, false, true, true, US-Ladder
