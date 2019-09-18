@@ -5,59 +5,6 @@
 
 [SERVER]
 
-www.maikeer.org = http, upstream-proxy-address=www.maikeer.org, upstream-proxy-port=80, upstream-proxy-auth=true, upstream-proxy-username=o, upstream-proxy-password=<your password>, over-tls=true, certificate=1
-maikr.tech = http, upstream-proxy-address=maikr.tech, upstream-proxy-port=80, upstream-proxy-auth=true, upstream-proxy-username=o, upstream-proxy-password=<your password>, over-tls=true, certificate=1
-www.maikr.tech = http, upstream-proxy-address=www.maikr.tech, upstream-proxy-port=80, upstream-proxy-auth=true, upstream-proxy-username=o, upstream-proxy-password=<your password>, over-tls=true, certificate=1
-maikr.biz = http, upstream-proxy-address=maikr.biz, upstream-proxy-port=80, upstream-proxy-auth=true, upstream-proxy-username=o, upstream-proxy-password=<your password>, over-tls=true, certificate=1
-www.maikr.biz = http, upstream-proxy-address=www.maikr.biz, upstream-proxy-port=80, upstream-proxy-auth=true, upstream-proxy-username=o, upstream-proxy-password=<your password>, over-tls=true, certificate=1
-maikr.xyz = http, upstream-proxy-address=maikr.xyz, upstream-proxy-port=80, upstream-proxy-auth=true, upstream-proxy-username=o, upstream-proxy-password=<your password>, over-tls=true, certificate=1
-maikeer.org = http, upstream-proxy-address=maikeer.org, upstream-proxy-port=80, upstream-proxy-auth=true, upstream-proxy-username=o, upstream-proxy-password=<your password>, over-tls=true, certificate=1
-maikeer.cloud = http, upstream-proxy-address=maikeer.cloud, upstream-proxy-port=80, upstream-proxy-auth=true, upstream-proxy-username=o, upstream-proxy-password=<your password>, over-tls=true, certificate=1
-www.maikeer.cloud = http, upstream-proxy-address=www.maikeer.cloud, upstream-proxy-port=80, upstream-proxy-auth=true, upstream-proxy-username=o, upstream-proxy-password=<your password>, over-tls=true, certificate=1
-www.maikr.mobi = http, upstream-proxy-address=www.maikr.mobi, upstream-proxy-port=80, upstream-proxy-auth=true, upstream-proxy-username=o, upstream-proxy-password=<your password>, over-tls=true, certificate=1
-www.maikrvpn.com = http, upstream-proxy-address=www.maikrvpn.com, upstream-proxy-port=80, upstream-proxy-auth=true, upstream-proxy-username=o, upstream-proxy-password=<your password>, over-tls=true, certificate=1
-maikr.mobi = http, upstream-proxy-address=maikr.mobi, upstream-proxy-port=80, upstream-proxy-auth=true, upstream-proxy-username=o, upstream-proxy-password=<your password>, over-tls=true, certificate=1
-maikr.club = http, upstream-proxy-address=maikr.club, upstream-proxy-port=25, upstream-proxy-auth=true, upstream-proxy-username=o, upstream-proxy-password=<your password>, over-tls=true, certificate=1
-
-pccw1.ghelper.net = http, upstream-proxy-address=pccw1.ghelper.net, upstream-proxy-port=443, upstream-proxy-auth=false, over-tls=true, certificate=1
-pccw2.ghelper.net = http, upstream-proxy-address=pccw2.ghelper.net, upstream-proxy-port=443, upstream-proxy-auth=false, over-tls=true, certificate=1
-pccw3.ghelper.net = http, upstream-proxy-address=pccw3.ghelper.net, upstream-proxy-port=443, upstream-proxy-auth=false, over-tls=true, certificate=1
-pccw4.ghelper.net = http, upstream-proxy-address=pccw4.ghelper.net, upstream-proxy-port=443, upstream-proxy-auth=false, over-tls=true, certificate=1
-pccw6.ghelper.net = http, upstream-proxy-address=pccw6.ghelper.net, upstream-proxy-port=1443, upstream-proxy-auth=false, over-tls=true, certificate=1
-pccw7.ghelper.net = http, upstream-proxy-address=pccw7.ghelper.net, upstream-proxy-port=1443, upstream-proxy-auth=false, over-tls=true, certificate=1
-
-hkbn1.ghelper.net = http, upstream-proxy-address=hkbn1.ghelper.net, upstream-proxy-port=1443, upstream-proxy-auth=false, over-tls=true, certificate=1
-hkbn2.ghelper.net = http, upstream-proxy-address=hkbn2.ghelper.net, upstream-proxy-port=443, upstream-proxy-auth=false, over-tls=true, certificate=1
-hgc.ghelper.net = http, upstream-proxy-address=hgc.ghelper.net, upstream-proxy-port=2443, upstream-proxy-auth=false, over-tls=true, certificate=1
-ru.ghelper.net = http, upstream-proxy-address=ru.ghelper.net, upstream-proxy-port=443, upstream-proxy-auth=false, over-tls=true, certificate=1
-us01.ghelper.net = http, upstream-proxy-address=us01.ghelper.net, upstream-proxy-port=1443, upstream-proxy-auth=false, over-tls=true, certificate=1
-us02.ghelper.net = http, upstream-proxy-address=us02.ghelper.net, upstream-proxy-port=1443, upstream-proxy-auth=false, over-tls=true, certificate=1
-wtt2.ghelper.net = http, upstream-proxy-address=wtt2.ghelper.net, upstream-proxy-port=443, upstream-proxy-auth=false, over-tls=true, certificate=1
-tw3.ghelper.net = http, upstream-proxy-address=tw3.ghelper.net, upstream-proxy-port=443, upstream-proxy-auth=false, over-tls=true, certificate=1
-
-www.51netflix.com:80 = http, upstream-proxy-address=www.51netflix.com, upstream-proxy-port=80, upstream-proxy-auth=false, over-tls=true, certificate=1
-www.51netflix.com:443 = http, upstream-proxy-address=www.51netflix.com, upstream-proxy-port=443, upstream-proxy-auth=false, over-tls=true, certificate=1
-www.51netflix.com:1443 = http, upstream-proxy-address=www.51netflix.com, upstream-proxy-port=1443, upstream-proxy-auth=false, over-tls=true, certificate=1
-www.pickdown.net:80 = http, upstream-proxy-address=www.pickdown.net, upstream-proxy-port=80, upstream-proxy-auth=false, over-tls=true, certificate=1
-www.pickdown.net:443 = http, upstream-proxy-address=www.pickdown.net, upstream-proxy-port=443, upstream-proxy-auth=false, over-tls=true, certificate=1
-www.pickdown.net:1443 = http, upstream-proxy-address=www.pickdown.net, upstream-proxy-port=1443, upstream-proxy-auth=false, over-tls=true, certificate=1
-www.pickdown.net:3389 = http, upstream-proxy-address=www.pickdown.net, upstream-proxy-port=3389, upstream-proxy-auth=false, over-tls=true, certificate=1
-www.copyplay.net:3389 = http, upstream-proxy-address=www.copyplay.net, upstream-proxy-port=3389, upstream-proxy-auth=false, over-tls=true, certificate=1
-
-hgc.tcpbbr.net = http, upstream-proxy-address=hgc.tcpbbr.net, upstream-proxy-port=443, upstream-proxy-auth=false, over-tls=true, certificate=1
-wtt.tcpbbr.net = http, upstream-proxy-address=wtt.tcpbbr.net, upstream-proxy-port=443, upstream-proxy-auth=false, over-tls=true, certificate=1
-jp1.tcpbbr.net = http, upstream-proxy-address=jp1.tcpbbr.net, upstream-proxy-port=443, upstream-proxy-auth=false, over-tls=true, certificate=1
-jp2.tcpbbr.net = http, upstream-proxy-address=jp2.tcpbbr.net, upstream-proxy-port=443, upstream-proxy-auth=false, over-tls=true, certificate=1
-ru.tcpbbr.net = http, upstream-proxy-address=ru.tcpbbr.net, upstream-proxy-port=443, upstream-proxy-auth=false, over-tls=true, certificate=1
-sg.tcpbbr.net = http, upstream-proxy-address=sg.tcpbbr.net, upstream-proxy-port=443, upstream-proxy-auth=false, over-tls=true, certificate=1
-tw.tcpbbr.net = http, upstream-proxy-address=tw.tcpbbr.net, upstream-proxy-port=443, upstream-proxy-auth=false, over-tls=true, certificate=1
-uk.tcpbbr.net = http, upstream-proxy-address=uk.tcpbbr.net, upstream-proxy-port=443, upstream-proxy-auth=false, over-tls=true, certificate=1
-de.tcpbbr.net = http, upstream-proxy-address=de.tcpbbr.net, upstream-proxy-port=443, upstream-proxy-auth=false, over-tls=true, certificate=1
-
-kr.onhop.net = http, upstream-proxy-address=kr.onhop.net, upstream-proxy-port=443, upstream-proxy-auth=false, over-tls=true, certificate=1
-tw.onhop.net = http, upstream-proxy-address=tw.onhop.net, upstream-proxy-port=443, upstream-proxy-auth=false, over-tls=true, certificate=1
-gia.onhop.net = http, upstream-proxy-address=gia.onhop.net, upstream-proxy-port=443, upstream-proxy-auth=false, over-tls=true, certificate=1
-
 chromeplugin1.windmilltest.xyz = http, upstream-proxy-address=chromeplugin1.windmilltest.xyz, upstream-proxy-port=443, upstream-proxy-auth=false, over-tls=true, certificate=1
 chromeplugin2.windmilltest.xyz = http, upstream-proxy-address=chromeplugin2.windmilltest.xyz, upstream-proxy-port=443, upstream-proxy-auth=false, over-tls=true, certificate=1
 chromeplugin3.windmilltest.xyz = http, upstream-proxy-address=chromeplugin3.windmilltest.xyz, upstream-proxy-port=443, upstream-proxy-auth=false, over-tls=true, certificate=1
@@ -81,6 +28,7 @@ TunneILight, server, https://dwz.cn/ttvfCEQc, false, true, true, TunneILight
 旋风黄金, server, https://dwz.cn/BaJMdIMV, false, true, true, 旋风黄金
 旋风超级, server, https://dwz.cn/jJzeTjE9, false, true, true, 旋风超级
 https(左滑选择替换), filter, https://dwz.cn/gkKpMxtr, true
+HTTPS服务器(左滑选择增加), filter, https://dwz.cn/g1BtypMb,true
 Hackl0us(左滑选择替换), filter, https://raw.githubusercontent.com/Hackl0us/Surge-Rule-Snippets/master/LAZY_RULES/Quantumult.conf, true
 lhie1(左滑选择替换), filter, https://raw.githubusercontent.com/lhie1/Rules/master/Quantumult/Quantumult.conf, true
 lhie1(左滑选择增加), filter, https://raw.githubusercontent.com/lhie1/Rules/master/Quantumult/Quantumult_Extra.conf, true
