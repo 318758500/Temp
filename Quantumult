@@ -28,6 +28,7 @@ TunneILight, server, https://dwz.cn/ttvfCEQc, false, true, true, TunneILight
 旋风黄金, server, https://dwz.cn/BaJMdIMV, false, true, true, 旋风黄金
 旋风超级, server, https://dwz.cn/jJzeTjE9, false, true, true, 旋风超级
 https(左滑选择替换), filter, https://dwz.cn/gkKpMxtr, true
+Pro(左滑选择替换), filter, https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/Pro.conf, true
 Hackl0us(左滑选择替换), filter, https://raw.githubusercontent.com/Hackl0us/Surge-Rule-Snippets/master/LAZY_RULES/Quantumult.conf, true
 lhie1(左滑选择替换), filter, https://raw.githubusercontent.com/lhie1/Rules/master/Quantumult/Quantumult.conf, true
 lhie1(左滑选择增加), filter, https://raw.githubusercontent.com/lhie1/Rules/master/Quantumult/Quantumult_Extra.conf, true
