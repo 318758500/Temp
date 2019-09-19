@@ -1,12 +1,13 @@
 [SERVER]
 
+
+[SOURCE]
+
 Banana, server, https://dwz.cn/N2caiWhZ, false, true, true, Banana
 泡芙云, server, https://dwz.cn/BQFoH5Rz, false, true, true, 泡芙云
 旋风免费, server, https://dwz.cn/scQy4RlW, false, true, true, 旋风免费
 旋风黄金, server, https://dwz.cn/BaJMdIMV, false, true, true, 旋风黄金
 旋风超级, server, https://dwz.cn/jJzeTjE9, false, true, true, 旋风超级
-
-[SOURCE]
 分流规则(左滑选择替换), filter, https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/Basic.conf, true
 
 [BACKUP-SERVER]
