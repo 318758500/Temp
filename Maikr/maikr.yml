@@ -1,233 +1,273 @@
 port: 7890
 socks-port: 7891
-allow-lan: true
+allow-lan: false
 mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇸🇬 cmgz0183.mmkker.xyz:9777/#Maikr测试节点 广州BGP->新加坡 01, server: cmgz0183.mmkker.xyz, port: 9777, type: ss, cipher: rc4-md5, password: maikr}
-  - {name: 🇭🇰 cmgz0183.mmkker.xyz:27777/#Maikr测试节点 广州BGP->香港 01, server: cmgz0183.mmkker.xyz, port: 27777, type: ss, cipher: rc4-md5, password: maikr}
-  - {name: 🇰🇷 ahlt.mmkker.xyz:9777/#Maikr安徽BGP->韩国首尔 01, server: ahlt.mmkker.xyz, port: 9777, type: ss, cipher: rc4-md5, password: maikr}
-  - {name: 🇯🇵 ahlt.mmkker.xyz:9780/#Maikr安徽BGP->日本东京 01, server: ahlt.mmkker.xyz, port: 9780, type: ss, cipher: rc4-md5, password: maikr}
-  - {name: 🇸🇬 ahlt.mmkker.xyz:9781/#Maikr安徽BGP->新加坡 02, server: ahlt.mmkker.xyz, port: 9781, type: ss, cipher: rc4-md5, password: maikr}
-  - {name: 🇸🇬 cmgz0183.mmkker.xyz:9781/#Maikr测试节点 安徽BGP->新加坡 02, server: cmgz0183.mmkker.xyz, port: 9781, type: ss, cipher: rc4-md5, password: maikr}
-  - {name: 🇺🇸 ahlt.mmkker.xyz:9782/#Maikr测试节点 安徽BGP->美国波特兰 01, server: ahlt.mmkker.xyz, port: 9782, type: ss, cipher: rc4-md5, password: maikr}
-  - {name: 🇨🇳 ahlt.mmkker.xyz:9801/#Maikr安徽BGP->台湾 01, server: ahlt.mmkker.xyz, port: 9801, type: ss, cipher: rc4-md5, password: maikr}
-  - {name: 🇭🇰 ahlt.mmkker.xyz:9802/#Maikr安徽BGP->香港 03, server: ahlt.mmkker.xyz, port: 9802, type: ss, cipher: rc4-md5, password: maikr}
-  - {name: 🇦🇺 ahlt.mmkker.xyz:9803/#Maikr测试节点 安徽BGP->澳大利亚 01, server: ahlt.mmkker.xyz, port: 9803, type: ss, cipher: rc4-md5, password: maikr}
-  - {name: 🇨🇦 ahlt.mmkker.xyz:9804/#Maikr测试节点 安徽BGP->加拿大 01, server: ahlt.mmkker.xyz, port: 9804, type: ss, cipher: rc4-md5, password: maikr}
-  - {name: 🇬🇧 ahlt.mmkker.xyz:9805/#Maikr安徽BGP->英国伦敦 01, server: ahlt.mmkker.xyz, port: 9805, type: ss, cipher: rc4-md5, password: maikr}
-  - {name: 🇩🇪 ahlt.mmkker.xyz:9806/#Maikr测试节点 安徽BGP->德国法兰克福 01, server: ahlt.mmkker.xyz, port: 9806, type: ss, cipher: rc4-md5, password: maikr}
-  - {name: 🇫🇷 ahlt.mmkker.xyz:9807/#Maikr安徽BGP->法国巴黎 01, server: ahlt.mmkker.xyz, port: 9807, type: ss, cipher: rc4-md5, password: maikr}
-  - {name: 🇮🇪 ahlt.mmkker.xyz:9808/#Maikr安徽BGP->爱尔兰 01, server: ahlt.mmkker.xyz, port: 9808, type: ss, cipher: rc4-md5, password: maikr}
-  - {name: 🇯🇵 ahlt.mmkker.xyz:9008/#Maikr安徽BGP->日本东京 02, server: ahlt.mmkker.xyz, port: 9008, type: ss, cipher: rc4-md5, password: maikr}
-  - {name: 🇯🇵 ahlt.mmkker.xyz:9062/#Maikr安徽BGP->日本东京 04, server: ahlt.mmkker.xyz, port: 9062, type: ss, cipher: rc4-md5, password: maikr}
-  - {name: 🇯🇵 ahlt.mmkker.xyz:9058/#Maikr安徽BGP->日本大阪 03, server: ahlt.mmkker.xyz, port: 9058, type: ss, cipher: rc4-md5, password: maikr}
-  - {name: 🇸🇬 ahlt.mmkker.xyz:9063/#Maikr安徽BGP->新加坡 03, server: ahlt.mmkker.xyz, port: 9063, type: ss, cipher: rc4-md5, password: maikr}
-  - {name: 🇰🇷 ahlt.mmkker.xyz:9061/#Maikr安徽BGP->韩国首尔 02, server: ahlt.mmkker.xyz, port: 9061, type: ss, cipher: rc4-md5, password: maikr}
-  - {name: 🇯🇵 ahlt.mmkker.xyz:9059/#Maikr安徽BGP->日本东京 05, server: ahlt.mmkker.xyz, port: 9059, type: ss, cipher: rc4-md5, password: maikr}
-  - {name: 🇯🇵 ahlt.mmkker.xyz:9056/#Maikr安徽BGP->日本东京 06, server: ahlt.mmkker.xyz, port: 9056, type: ss, cipher: rc4-md5, password: maikr}
-  - {name: 🇯🇵 ahlt.mmkker.xyz:9057/#Maikr安徽BGP->日本东京 07, server: ahlt.mmkker.xyz, port: 9057, type: ss, cipher: rc4-md5, password: maikr}
+  - {name: 🇯🇵 ahlt.mmkker.xyz:9201/#安徽BGP->日本东京 05, server: ahlt.mmkker.xyz, port: 9201, type: ss, cipher: rc4-md5, password: maikr}
+  - {name: 🇯🇵 ahlt.mmkker.xyz:9202/#安徽BGP->日本东京 08, server: ahlt.mmkker.xyz, port: 9202, type: ss, cipher: rc4-md5, password: maikr}
+  - {name: 🇯🇵 ahlt.mmkker.xyz:9203/#安徽BGP->日本东京 08, server: ahlt.mmkker.xyz, port: 9203, type: ss, cipher: rc4-md5, password: maikr}
+  - {name: 🇯🇵 ahlt.mmkker.xyz:9204/#安徽BGP->日本东京 05, server: ahlt.mmkker.xyz, port: 9204, type: ss, cipher: rc4-md5, password: maikr}
+  - {name: 🇯🇵 ahlt.mmkker.xyz:9205/#安徽BGP->日本东京 05, server: ahlt.mmkker.xyz, port: 9205, type: ss, cipher: rc4-md5, password: maikr}
+  - {name: 🇰🇷 ahlt.mmkker.xyz:9206/#安徽BGP->韩国首尔 01, server: ahlt.mmkker.xyz, port: 9206, type: ss, cipher: rc4-md5, password: maikr}
+  - {name: 🇯🇵 ahlt.mmkker.xyz:9207/#安徽BGP->日本东京 01, server: ahlt.mmkker.xyz, port: 9207, type: ss, cipher: rc4-md5, password: maikr}
+  - {name: 🇸🇬 ahlt.mmkker.xyz:9208/#安徽BGP->新加坡 02, server: ahlt.mmkker.xyz, port: 9208, type: ss, cipher: rc4-md5, password: maikr}
+  - {name: 🇺🇸 ahlt.mmkker.xyz:9209/#安徽BGP->美国波特兰 01, server: ahlt.mmkker.xyz, port: 9209, type: ss, cipher: rc4-md5, password: maikr}
+  - {name: 🇰🇷 ahlt.mmkker.xyz:9210/#安徽BGP->韩国首尔 02, server: ahlt.mmkker.xyz, port: 9210, type: ss, cipher: rc4-md5, password: maikr}
+  - {name: 🇯🇵 ahlt.mmkker.xyz:9211/#安徽BGP->日本, server: ahlt.mmkker.xyz, port: 9211, type: ss, cipher: rc4-md5, password: maikr}
+  - {name: 🇸🇬 ahlt.mmkker.xyz:9212/#安徽BGP->新加坡, server: ahlt.mmkker.xyz, port: 9212, type: ss, cipher: rc4-md5, password: maikr}
+  - {name: 🇺🇸 ahlt.mmkker.xyz:9213/#安徽BGP->美国, server: ahlt.mmkker.xyz, port: 9213, type: ss, cipher: rc4-md5, password: maikr}
+  - {name: 🇨🇳 ahlt.mmkker.xyz:9214/#安徽BGP->台湾 01, server: ahlt.mmkker.xyz, port: 9214, type: ss, cipher: rc4-md5, password: maikr}
+  - {name: 🇭🇰 ahlt.mmkker.xyz:9215/#安徽BGP->香港 03, server: ahlt.mmkker.xyz, port: 9215, type: ss, cipher: rc4-md5, password: maikr}
+  - {name: 🇦🇺 ahlt.mmkker.xyz:9216/#安徽BGP->澳大利亚 01, server: ahlt.mmkker.xyz, port: 9216, type: ss, cipher: rc4-md5, password: maikr}
+  - {name: 🇨🇦 ahlt.mmkker.xyz:9217/#安徽BGP->加拿大 01, server: ahlt.mmkker.xyz, port: 9217, type: ss, cipher: rc4-md5, password: maikr}
+  - {name: 🇬🇧 ahlt.mmkker.xyz:9218/#安徽BGP->英国伦敦 01, server: ahlt.mmkker.xyz, port: 9218, type: ss, cipher: rc4-md5, password: maikr}
+  - {name: 🇩🇪 ahlt.mmkker.xyz:9219/#安徽BGP->德国法兰克福 01, server: ahlt.mmkker.xyz, port: 9219, type: ss, cipher: rc4-md5, password: maikr}
+  - {name: 🇫🇷 ahlt.mmkker.xyz:9220/#安徽BGP->法国巴黎 01, server: ahlt.mmkker.xyz, port: 9220, type: ss, cipher: rc4-md5, password: maikr}
+  - {name: 🇮🇪 ahlt.mmkker.xyz:9221/#安徽BGP->爱尔兰 01, server: ahlt.mmkker.xyz, port: 9221, type: ss, cipher: rc4-md5, password: maikr}
+  - {name: 🇸🇬 cmgz0183.mmkker.xyz:9680/#广州BGP->新加坡 01, server: cmgz0183.mmkker.xyz, port: 9680, type: ss, cipher: rc4-md5, password: maikr}
+  - {name: 🇭🇰 cmgz0183.mmkker.xyz:9681/#广州BGP->香港 04, server: cmgz0183.mmkker.xyz, port: 9681, type: ss, cipher: rc4-md5, password: maikr}
+  - {name: 🇭🇰 cmgz0183.mmkker.xyz:9682/#广州BGP->香港 02, server: cmgz0183.mmkker.xyz, port: 9682, type: ss, cipher: rc4-md5, password: maikr}
+  - {name: 🇯🇵 cmgz0183.mmkker.xyz:9683/#广州BGP->日本 05, server: cmgz0183.mmkker.xyz, port: 9683, type: ss, cipher: rc4-md5, password: maikr}
+  - {name: 🇭🇰 cmgz0241.mmkker.xyz:9001/#广州移动->香港 04, server: cmgz0241.mmkker.xyz, port: 9001, type: ss, cipher: rc4-md5, password: maikr}
+  - {name: 🇭🇰 cmgz0241.mmkker.xyz:9002/#广州移动->香港 05, server: cmgz0241.mmkker.xyz, port: 9002, type: ss, cipher: rc4-md5, password: maikr}
+  - {name: 🇭🇰 cmgz0241.mmkker.xyz:9003/#广州移动->香港 06, server: cmgz0241.mmkker.xyz, port: 9003, type: ss, cipher: rc4-md5, password: maikr}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇸🇬 cmgz0183.mmkker.xyz:9777/#Maikr测试节点 广州BGP->新加坡 01
-      - 🇭🇰 cmgz0183.mmkker.xyz:27777/#Maikr测试节点 广州BGP->香港 01
-      - 🇰🇷 ahlt.mmkker.xyz:9777/#Maikr安徽BGP->韩国首尔 01
-      - 🇯🇵 ahlt.mmkker.xyz:9780/#Maikr安徽BGP->日本东京 01
-      - 🇸🇬 ahlt.mmkker.xyz:9781/#Maikr安徽BGP->新加坡 02
-      - 🇸🇬 cmgz0183.mmkker.xyz:9781/#Maikr测试节点 安徽BGP->新加坡 02
-      - 🇺🇸 ahlt.mmkker.xyz:9782/#Maikr测试节点 安徽BGP->美国波特兰 01
-      - 🇨🇳 ahlt.mmkker.xyz:9801/#Maikr安徽BGP->台湾 01
-      - 🇭🇰 ahlt.mmkker.xyz:9802/#Maikr安徽BGP->香港 03
-      - 🇦🇺 ahlt.mmkker.xyz:9803/#Maikr测试节点 安徽BGP->澳大利亚 01
-      - 🇨🇦 ahlt.mmkker.xyz:9804/#Maikr测试节点 安徽BGP->加拿大 01
-      - 🇬🇧 ahlt.mmkker.xyz:9805/#Maikr安徽BGP->英国伦敦 01
-      - 🇩🇪 ahlt.mmkker.xyz:9806/#Maikr测试节点 安徽BGP->德国法兰克福 01
-      - 🇫🇷 ahlt.mmkker.xyz:9807/#Maikr安徽BGP->法国巴黎 01
-      - 🇮🇪 ahlt.mmkker.xyz:9808/#Maikr安徽BGP->爱尔兰 01
-      - 🇯🇵 ahlt.mmkker.xyz:9008/#Maikr安徽BGP->日本东京 02
-      - 🇯🇵 ahlt.mmkker.xyz:9062/#Maikr安徽BGP->日本东京 04
-      - 🇯🇵 ahlt.mmkker.xyz:9058/#Maikr安徽BGP->日本大阪 03
-      - 🇸🇬 ahlt.mmkker.xyz:9063/#Maikr安徽BGP->新加坡 03
-      - 🇰🇷 ahlt.mmkker.xyz:9061/#Maikr安徽BGP->韩国首尔 02
-      - 🇯🇵 ahlt.mmkker.xyz:9059/#Maikr安徽BGP->日本东京 05
-      - 🇯🇵 ahlt.mmkker.xyz:9056/#Maikr安徽BGP->日本东京 06
-      - 🇯🇵 ahlt.mmkker.xyz:9057/#Maikr安徽BGP->日本东京 07
+      - 🇯🇵 ahlt.mmkker.xyz:9201/#安徽BGP->日本东京 05
+      - 🇯🇵 ahlt.mmkker.xyz:9202/#安徽BGP->日本东京 08
+      - 🇯🇵 ahlt.mmkker.xyz:9203/#安徽BGP->日本东京 08
+      - 🇯🇵 ahlt.mmkker.xyz:9204/#安徽BGP->日本东京 05
+      - 🇯🇵 ahlt.mmkker.xyz:9205/#安徽BGP->日本东京 05
+      - 🇰🇷 ahlt.mmkker.xyz:9206/#安徽BGP->韩国首尔 01
+      - 🇯🇵 ahlt.mmkker.xyz:9207/#安徽BGP->日本东京 01
+      - 🇸🇬 ahlt.mmkker.xyz:9208/#安徽BGP->新加坡 02
+      - 🇺🇸 ahlt.mmkker.xyz:9209/#安徽BGP->美国波特兰 01
+      - 🇰🇷 ahlt.mmkker.xyz:9210/#安徽BGP->韩国首尔 02
+      - 🇯🇵 ahlt.mmkker.xyz:9211/#安徽BGP->日本
+      - 🇸🇬 ahlt.mmkker.xyz:9212/#安徽BGP->新加坡
+      - 🇺🇸 ahlt.mmkker.xyz:9213/#安徽BGP->美国
+      - 🇨🇳 ahlt.mmkker.xyz:9214/#安徽BGP->台湾 01
+      - 🇭🇰 ahlt.mmkker.xyz:9215/#安徽BGP->香港 03
+      - 🇦🇺 ahlt.mmkker.xyz:9216/#安徽BGP->澳大利亚 01
+      - 🇨🇦 ahlt.mmkker.xyz:9217/#安徽BGP->加拿大 01
+      - 🇬🇧 ahlt.mmkker.xyz:9218/#安徽BGP->英国伦敦 01
+      - 🇩🇪 ahlt.mmkker.xyz:9219/#安徽BGP->德国法兰克福 01
+      - 🇫🇷 ahlt.mmkker.xyz:9220/#安徽BGP->法国巴黎 01
+      - 🇮🇪 ahlt.mmkker.xyz:9221/#安徽BGP->爱尔兰 01
+      - 🇸🇬 cmgz0183.mmkker.xyz:9680/#广州BGP->新加坡 01
+      - 🇭🇰 cmgz0183.mmkker.xyz:9681/#广州BGP->香港 04
+      - 🇭🇰 cmgz0183.mmkker.xyz:9682/#广州BGP->香港 02
+      - 🇯🇵 cmgz0183.mmkker.xyz:9683/#广州BGP->日本 05
+      - 🇭🇰 cmgz0241.mmkker.xyz:9001/#广州移动->香港 04
+      - 🇭🇰 cmgz0241.mmkker.xyz:9002/#广州移动->香港 05
+      - 🇭🇰 cmgz0241.mmkker.xyz:9003/#广州移动->香港 06
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 cmgz0183.mmkker.xyz:9777/#Maikr测试节点 广州BGP->新加坡 01
-      - 🇭🇰 cmgz0183.mmkker.xyz:27777/#Maikr测试节点 广州BGP->香港 01
-      - 🇰🇷 ahlt.mmkker.xyz:9777/#Maikr安徽BGP->韩国首尔 01
-      - 🇯🇵 ahlt.mmkker.xyz:9780/#Maikr安徽BGP->日本东京 01
-      - 🇸🇬 ahlt.mmkker.xyz:9781/#Maikr安徽BGP->新加坡 02
-      - 🇸🇬 cmgz0183.mmkker.xyz:9781/#Maikr测试节点 安徽BGP->新加坡 02
-      - 🇺🇸 ahlt.mmkker.xyz:9782/#Maikr测试节点 安徽BGP->美国波特兰 01
-      - 🇨🇳 ahlt.mmkker.xyz:9801/#Maikr安徽BGP->台湾 01
-      - 🇭🇰 ahlt.mmkker.xyz:9802/#Maikr安徽BGP->香港 03
-      - 🇦🇺 ahlt.mmkker.xyz:9803/#Maikr测试节点 安徽BGP->澳大利亚 01
-      - 🇨🇦 ahlt.mmkker.xyz:9804/#Maikr测试节点 安徽BGP->加拿大 01
-      - 🇬🇧 ahlt.mmkker.xyz:9805/#Maikr安徽BGP->英国伦敦 01
-      - 🇩🇪 ahlt.mmkker.xyz:9806/#Maikr测试节点 安徽BGP->德国法兰克福 01
-      - 🇫🇷 ahlt.mmkker.xyz:9807/#Maikr安徽BGP->法国巴黎 01
-      - 🇮🇪 ahlt.mmkker.xyz:9808/#Maikr安徽BGP->爱尔兰 01
-      - 🇯🇵 ahlt.mmkker.xyz:9008/#Maikr安徽BGP->日本东京 02
-      - 🇯🇵 ahlt.mmkker.xyz:9062/#Maikr安徽BGP->日本东京 04
-      - 🇯🇵 ahlt.mmkker.xyz:9058/#Maikr安徽BGP->日本大阪 03
-      - 🇸🇬 ahlt.mmkker.xyz:9063/#Maikr安徽BGP->新加坡 03
-      - 🇰🇷 ahlt.mmkker.xyz:9061/#Maikr安徽BGP->韩国首尔 02
-      - 🇯🇵 ahlt.mmkker.xyz:9059/#Maikr安徽BGP->日本东京 05
-      - 🇯🇵 ahlt.mmkker.xyz:9056/#Maikr安徽BGP->日本东京 06
-      - 🇯🇵 ahlt.mmkker.xyz:9057/#Maikr安徽BGP->日本东京 07
+      - 🇯🇵 ahlt.mmkker.xyz:9201/#安徽BGP->日本东京 05
+      - 🇯🇵 ahlt.mmkker.xyz:9202/#安徽BGP->日本东京 08
+      - 🇯🇵 ahlt.mmkker.xyz:9203/#安徽BGP->日本东京 08
+      - 🇯🇵 ahlt.mmkker.xyz:9204/#安徽BGP->日本东京 05
+      - 🇯🇵 ahlt.mmkker.xyz:9205/#安徽BGP->日本东京 05
+      - 🇰🇷 ahlt.mmkker.xyz:9206/#安徽BGP->韩国首尔 01
+      - 🇯🇵 ahlt.mmkker.xyz:9207/#安徽BGP->日本东京 01
+      - 🇸🇬 ahlt.mmkker.xyz:9208/#安徽BGP->新加坡 02
+      - 🇺🇸 ahlt.mmkker.xyz:9209/#安徽BGP->美国波特兰 01
+      - 🇰🇷 ahlt.mmkker.xyz:9210/#安徽BGP->韩国首尔 02
+      - 🇯🇵 ahlt.mmkker.xyz:9211/#安徽BGP->日本
+      - 🇸🇬 ahlt.mmkker.xyz:9212/#安徽BGP->新加坡
+      - 🇺🇸 ahlt.mmkker.xyz:9213/#安徽BGP->美国
+      - 🇨🇳 ahlt.mmkker.xyz:9214/#安徽BGP->台湾 01
+      - 🇭🇰 ahlt.mmkker.xyz:9215/#安徽BGP->香港 03
+      - 🇦🇺 ahlt.mmkker.xyz:9216/#安徽BGP->澳大利亚 01
+      - 🇨🇦 ahlt.mmkker.xyz:9217/#安徽BGP->加拿大 01
+      - 🇬🇧 ahlt.mmkker.xyz:9218/#安徽BGP->英国伦敦 01
+      - 🇩🇪 ahlt.mmkker.xyz:9219/#安徽BGP->德国法兰克福 01
+      - 🇫🇷 ahlt.mmkker.xyz:9220/#安徽BGP->法国巴黎 01
+      - 🇮🇪 ahlt.mmkker.xyz:9221/#安徽BGP->爱尔兰 01
+      - 🇸🇬 cmgz0183.mmkker.xyz:9680/#广州BGP->新加坡 01
+      - 🇭🇰 cmgz0183.mmkker.xyz:9681/#广州BGP->香港 04
+      - 🇭🇰 cmgz0183.mmkker.xyz:9682/#广州BGP->香港 02
+      - 🇯🇵 cmgz0183.mmkker.xyz:9683/#广州BGP->日本 05
+      - 🇭🇰 cmgz0241.mmkker.xyz:9001/#广州移动->香港 04
+      - 🇭🇰 cmgz0241.mmkker.xyz:9002/#广州移动->香港 05
+      - 🇭🇰 cmgz0241.mmkker.xyz:9003/#广州移动->香港 06
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 cmgz0183.mmkker.xyz:9777/#Maikr测试节点 广州BGP->新加坡 01
-      - 🇭🇰 cmgz0183.mmkker.xyz:27777/#Maikr测试节点 广州BGP->香港 01
-      - 🇰🇷 ahlt.mmkker.xyz:9777/#Maikr安徽BGP->韩国首尔 01
-      - 🇯🇵 ahlt.mmkker.xyz:9780/#Maikr安徽BGP->日本东京 01
-      - 🇸🇬 ahlt.mmkker.xyz:9781/#Maikr安徽BGP->新加坡 02
-      - 🇸🇬 cmgz0183.mmkker.xyz:9781/#Maikr测试节点 安徽BGP->新加坡 02
-      - 🇺🇸 ahlt.mmkker.xyz:9782/#Maikr测试节点 安徽BGP->美国波特兰 01
-      - 🇨🇳 ahlt.mmkker.xyz:9801/#Maikr安徽BGP->台湾 01
-      - 🇭🇰 ahlt.mmkker.xyz:9802/#Maikr安徽BGP->香港 03
-      - 🇦🇺 ahlt.mmkker.xyz:9803/#Maikr测试节点 安徽BGP->澳大利亚 01
-      - 🇨🇦 ahlt.mmkker.xyz:9804/#Maikr测试节点 安徽BGP->加拿大 01
-      - 🇬🇧 ahlt.mmkker.xyz:9805/#Maikr安徽BGP->英国伦敦 01
-      - 🇩🇪 ahlt.mmkker.xyz:9806/#Maikr测试节点 安徽BGP->德国法兰克福 01
-      - 🇫🇷 ahlt.mmkker.xyz:9807/#Maikr安徽BGP->法国巴黎 01
-      - 🇮🇪 ahlt.mmkker.xyz:9808/#Maikr安徽BGP->爱尔兰 01
-      - 🇯🇵 ahlt.mmkker.xyz:9008/#Maikr安徽BGP->日本东京 02
-      - 🇯🇵 ahlt.mmkker.xyz:9062/#Maikr安徽BGP->日本东京 04
-      - 🇯🇵 ahlt.mmkker.xyz:9058/#Maikr安徽BGP->日本大阪 03
-      - 🇸🇬 ahlt.mmkker.xyz:9063/#Maikr安徽BGP->新加坡 03
-      - 🇰🇷 ahlt.mmkker.xyz:9061/#Maikr安徽BGP->韩国首尔 02
-      - 🇯🇵 ahlt.mmkker.xyz:9059/#Maikr安徽BGP->日本东京 05
-      - 🇯🇵 ahlt.mmkker.xyz:9056/#Maikr安徽BGP->日本东京 06
-      - 🇯🇵 ahlt.mmkker.xyz:9057/#Maikr安徽BGP->日本东京 07
+      - 🇯🇵 ahlt.mmkker.xyz:9201/#安徽BGP->日本东京 05
+      - 🇯🇵 ahlt.mmkker.xyz:9202/#安徽BGP->日本东京 08
+      - 🇯🇵 ahlt.mmkker.xyz:9203/#安徽BGP->日本东京 08
+      - 🇯🇵 ahlt.mmkker.xyz:9204/#安徽BGP->日本东京 05
+      - 🇯🇵 ahlt.mmkker.xyz:9205/#安徽BGP->日本东京 05
+      - 🇰🇷 ahlt.mmkker.xyz:9206/#安徽BGP->韩国首尔 01
+      - 🇯🇵 ahlt.mmkker.xyz:9207/#安徽BGP->日本东京 01
+      - 🇸🇬 ahlt.mmkker.xyz:9208/#安徽BGP->新加坡 02
+      - 🇺🇸 ahlt.mmkker.xyz:9209/#安徽BGP->美国波特兰 01
+      - 🇰🇷 ahlt.mmkker.xyz:9210/#安徽BGP->韩国首尔 02
+      - 🇯🇵 ahlt.mmkker.xyz:9211/#安徽BGP->日本
+      - 🇸🇬 ahlt.mmkker.xyz:9212/#安徽BGP->新加坡
+      - 🇺🇸 ahlt.mmkker.xyz:9213/#安徽BGP->美国
+      - 🇨🇳 ahlt.mmkker.xyz:9214/#安徽BGP->台湾 01
+      - 🇭🇰 ahlt.mmkker.xyz:9215/#安徽BGP->香港 03
+      - 🇦🇺 ahlt.mmkker.xyz:9216/#安徽BGP->澳大利亚 01
+      - 🇨🇦 ahlt.mmkker.xyz:9217/#安徽BGP->加拿大 01
+      - 🇬🇧 ahlt.mmkker.xyz:9218/#安徽BGP->英国伦敦 01
+      - 🇩🇪 ahlt.mmkker.xyz:9219/#安徽BGP->德国法兰克福 01
+      - 🇫🇷 ahlt.mmkker.xyz:9220/#安徽BGP->法国巴黎 01
+      - 🇮🇪 ahlt.mmkker.xyz:9221/#安徽BGP->爱尔兰 01
+      - 🇸🇬 cmgz0183.mmkker.xyz:9680/#广州BGP->新加坡 01
+      - 🇭🇰 cmgz0183.mmkker.xyz:9681/#广州BGP->香港 04
+      - 🇭🇰 cmgz0183.mmkker.xyz:9682/#广州BGP->香港 02
+      - 🇯🇵 cmgz0183.mmkker.xyz:9683/#广州BGP->日本 05
+      - 🇭🇰 cmgz0241.mmkker.xyz:9001/#广州移动->香港 04
+      - 🇭🇰 cmgz0241.mmkker.xyz:9002/#广州移动->香港 05
+      - 🇭🇰 cmgz0241.mmkker.xyz:9003/#广州移动->香港 06
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬 cmgz0183.mmkker.xyz:9777/#Maikr测试节点 广州BGP->新加坡 01
-      - 🇭🇰 cmgz0183.mmkker.xyz:27777/#Maikr测试节点 广州BGP->香港 01
-      - 🇰🇷 ahlt.mmkker.xyz:9777/#Maikr安徽BGP->韩国首尔 01
-      - 🇯🇵 ahlt.mmkker.xyz:9780/#Maikr安徽BGP->日本东京 01
-      - 🇸🇬 ahlt.mmkker.xyz:9781/#Maikr安徽BGP->新加坡 02
-      - 🇸🇬 cmgz0183.mmkker.xyz:9781/#Maikr测试节点 安徽BGP->新加坡 02
-      - 🇺🇸 ahlt.mmkker.xyz:9782/#Maikr测试节点 安徽BGP->美国波特兰 01
-      - 🇨🇳 ahlt.mmkker.xyz:9801/#Maikr安徽BGP->台湾 01
-      - 🇭🇰 ahlt.mmkker.xyz:9802/#Maikr安徽BGP->香港 03
-      - 🇦🇺 ahlt.mmkker.xyz:9803/#Maikr测试节点 安徽BGP->澳大利亚 01
-      - 🇨🇦 ahlt.mmkker.xyz:9804/#Maikr测试节点 安徽BGP->加拿大 01
-      - 🇬🇧 ahlt.mmkker.xyz:9805/#Maikr安徽BGP->英国伦敦 01
-      - 🇩🇪 ahlt.mmkker.xyz:9806/#Maikr测试节点 安徽BGP->德国法兰克福 01
-      - 🇫🇷 ahlt.mmkker.xyz:9807/#Maikr安徽BGP->法国巴黎 01
-      - 🇮🇪 ahlt.mmkker.xyz:9808/#Maikr安徽BGP->爱尔兰 01
-      - 🇯🇵 ahlt.mmkker.xyz:9008/#Maikr安徽BGP->日本东京 02
-      - 🇯🇵 ahlt.mmkker.xyz:9062/#Maikr安徽BGP->日本东京 04
-      - 🇯🇵 ahlt.mmkker.xyz:9058/#Maikr安徽BGP->日本大阪 03
-      - 🇸🇬 ahlt.mmkker.xyz:9063/#Maikr安徽BGP->新加坡 03
-      - 🇰🇷 ahlt.mmkker.xyz:9061/#Maikr安徽BGP->韩国首尔 02
-      - 🇯🇵 ahlt.mmkker.xyz:9059/#Maikr安徽BGP->日本东京 05
-      - 🇯🇵 ahlt.mmkker.xyz:9056/#Maikr安徽BGP->日本东京 06
-      - 🇯🇵 ahlt.mmkker.xyz:9057/#Maikr安徽BGP->日本东京 07
+      - 🇯🇵 ahlt.mmkker.xyz:9201/#安徽BGP->日本东京 05
+      - 🇯🇵 ahlt.mmkker.xyz:9202/#安徽BGP->日本东京 08
+      - 🇯🇵 ahlt.mmkker.xyz:9203/#安徽BGP->日本东京 08
+      - 🇯🇵 ahlt.mmkker.xyz:9204/#安徽BGP->日本东京 05
+      - 🇯🇵 ahlt.mmkker.xyz:9205/#安徽BGP->日本东京 05
+      - 🇰🇷 ahlt.mmkker.xyz:9206/#安徽BGP->韩国首尔 01
+      - 🇯🇵 ahlt.mmkker.xyz:9207/#安徽BGP->日本东京 01
+      - 🇸🇬 ahlt.mmkker.xyz:9208/#安徽BGP->新加坡 02
+      - 🇺🇸 ahlt.mmkker.xyz:9209/#安徽BGP->美国波特兰 01
+      - 🇰🇷 ahlt.mmkker.xyz:9210/#安徽BGP->韩国首尔 02
+      - 🇯🇵 ahlt.mmkker.xyz:9211/#安徽BGP->日本
+      - 🇸🇬 ahlt.mmkker.xyz:9212/#安徽BGP->新加坡
+      - 🇺🇸 ahlt.mmkker.xyz:9213/#安徽BGP->美国
+      - 🇨🇳 ahlt.mmkker.xyz:9214/#安徽BGP->台湾 01
+      - 🇭🇰 ahlt.mmkker.xyz:9215/#安徽BGP->香港 03
+      - 🇦🇺 ahlt.mmkker.xyz:9216/#安徽BGP->澳大利亚 01
+      - 🇨🇦 ahlt.mmkker.xyz:9217/#安徽BGP->加拿大 01
+      - 🇬🇧 ahlt.mmkker.xyz:9218/#安徽BGP->英国伦敦 01
+      - 🇩🇪 ahlt.mmkker.xyz:9219/#安徽BGP->德国法兰克福 01
+      - 🇫🇷 ahlt.mmkker.xyz:9220/#安徽BGP->法国巴黎 01
+      - 🇮🇪 ahlt.mmkker.xyz:9221/#安徽BGP->爱尔兰 01
+      - 🇸🇬 cmgz0183.mmkker.xyz:9680/#广州BGP->新加坡 01
+      - 🇭🇰 cmgz0183.mmkker.xyz:9681/#广州BGP->香港 04
+      - 🇭🇰 cmgz0183.mmkker.xyz:9682/#广州BGP->香港 02
+      - 🇯🇵 cmgz0183.mmkker.xyz:9683/#广州BGP->日本 05
+      - 🇭🇰 cmgz0241.mmkker.xyz:9001/#广州移动->香港 04
+      - 🇭🇰 cmgz0241.mmkker.xyz:9002/#广州移动->香港 05
+      - 🇭🇰 cmgz0241.mmkker.xyz:9003/#广州移动->香港 06
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇸🇬 cmgz0183.mmkker.xyz:9777/#Maikr测试节点 广州BGP->新加坡 01
-      - 🇭🇰 cmgz0183.mmkker.xyz:27777/#Maikr测试节点 广州BGP->香港 01
-      - 🇰🇷 ahlt.mmkker.xyz:9777/#Maikr安徽BGP->韩国首尔 01
-      - 🇯🇵 ahlt.mmkker.xyz:9780/#Maikr安徽BGP->日本东京 01
-      - 🇸🇬 ahlt.mmkker.xyz:9781/#Maikr安徽BGP->新加坡 02
-      - 🇸🇬 cmgz0183.mmkker.xyz:9781/#Maikr测试节点 安徽BGP->新加坡 02
-      - 🇺🇸 ahlt.mmkker.xyz:9782/#Maikr测试节点 安徽BGP->美国波特兰 01
-      - 🇨🇳 ahlt.mmkker.xyz:9801/#Maikr安徽BGP->台湾 01
-      - 🇭🇰 ahlt.mmkker.xyz:9802/#Maikr安徽BGP->香港 03
-      - 🇦🇺 ahlt.mmkker.xyz:9803/#Maikr测试节点 安徽BGP->澳大利亚 01
-      - 🇨🇦 ahlt.mmkker.xyz:9804/#Maikr测试节点 安徽BGP->加拿大 01
-      - 🇬🇧 ahlt.mmkker.xyz:9805/#Maikr安徽BGP->英国伦敦 01
-      - 🇩🇪 ahlt.mmkker.xyz:9806/#Maikr测试节点 安徽BGP->德国法兰克福 01
-      - 🇫🇷 ahlt.mmkker.xyz:9807/#Maikr安徽BGP->法国巴黎 01
-      - 🇮🇪 ahlt.mmkker.xyz:9808/#Maikr安徽BGP->爱尔兰 01
-      - 🇯🇵 ahlt.mmkker.xyz:9008/#Maikr安徽BGP->日本东京 02
-      - 🇯🇵 ahlt.mmkker.xyz:9062/#Maikr安徽BGP->日本东京 04
-      - 🇯🇵 ahlt.mmkker.xyz:9058/#Maikr安徽BGP->日本大阪 03
-      - 🇸🇬 ahlt.mmkker.xyz:9063/#Maikr安徽BGP->新加坡 03
-      - 🇰🇷 ahlt.mmkker.xyz:9061/#Maikr安徽BGP->韩国首尔 02
-      - 🇯🇵 ahlt.mmkker.xyz:9059/#Maikr安徽BGP->日本东京 05
-      - 🇯🇵 ahlt.mmkker.xyz:9056/#Maikr安徽BGP->日本东京 06
-      - 🇯🇵 ahlt.mmkker.xyz:9057/#Maikr安徽BGP->日本东京 07
+      - 🇯🇵 ahlt.mmkker.xyz:9201/#安徽BGP->日本东京 05
+      - 🇯🇵 ahlt.mmkker.xyz:9202/#安徽BGP->日本东京 08
+      - 🇯🇵 ahlt.mmkker.xyz:9203/#安徽BGP->日本东京 08
+      - 🇯🇵 ahlt.mmkker.xyz:9204/#安徽BGP->日本东京 05
+      - 🇯🇵 ahlt.mmkker.xyz:9205/#安徽BGP->日本东京 05
+      - 🇰🇷 ahlt.mmkker.xyz:9206/#安徽BGP->韩国首尔 01
+      - 🇯🇵 ahlt.mmkker.xyz:9207/#安徽BGP->日本东京 01
+      - 🇸🇬 ahlt.mmkker.xyz:9208/#安徽BGP->新加坡 02
+      - 🇺🇸 ahlt.mmkker.xyz:9209/#安徽BGP->美国波特兰 01
+      - 🇰🇷 ahlt.mmkker.xyz:9210/#安徽BGP->韩国首尔 02
+      - 🇯🇵 ahlt.mmkker.xyz:9211/#安徽BGP->日本
+      - 🇸🇬 ahlt.mmkker.xyz:9212/#安徽BGP->新加坡
+      - 🇺🇸 ahlt.mmkker.xyz:9213/#安徽BGP->美国
+      - 🇨🇳 ahlt.mmkker.xyz:9214/#安徽BGP->台湾 01
+      - 🇭🇰 ahlt.mmkker.xyz:9215/#安徽BGP->香港 03
+      - 🇦🇺 ahlt.mmkker.xyz:9216/#安徽BGP->澳大利亚 01
+      - 🇨🇦 ahlt.mmkker.xyz:9217/#安徽BGP->加拿大 01
+      - 🇬🇧 ahlt.mmkker.xyz:9218/#安徽BGP->英国伦敦 01
+      - 🇩🇪 ahlt.mmkker.xyz:9219/#安徽BGP->德国法兰克福 01
+      - 🇫🇷 ahlt.mmkker.xyz:9220/#安徽BGP->法国巴黎 01
+      - 🇮🇪 ahlt.mmkker.xyz:9221/#安徽BGP->爱尔兰 01
+      - 🇸🇬 cmgz0183.mmkker.xyz:9680/#广州BGP->新加坡 01
+      - 🇭🇰 cmgz0183.mmkker.xyz:9681/#广州BGP->香港 04
+      - 🇭🇰 cmgz0183.mmkker.xyz:9682/#广州BGP->香港 02
+      - 🇯🇵 cmgz0183.mmkker.xyz:9683/#广州BGP->日本 05
+      - 🇭🇰 cmgz0241.mmkker.xyz:9001/#广州移动->香港 04
+      - 🇭🇰 cmgz0241.mmkker.xyz:9002/#广州移动->香港 05
+      - 🇭🇰 cmgz0241.mmkker.xyz:9003/#广州移动->香港 06
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬 cmgz0183.mmkker.xyz:9777/#Maikr测试节点 广州BGP->新加坡 01
-      - 🇭🇰 cmgz0183.mmkker.xyz:27777/#Maikr测试节点 广州BGP->香港 01
-      - 🇰🇷 ahlt.mmkker.xyz:9777/#Maikr安徽BGP->韩国首尔 01
-      - 🇯🇵 ahlt.mmkker.xyz:9780/#Maikr安徽BGP->日本东京 01
-      - 🇸🇬 ahlt.mmkker.xyz:9781/#Maikr安徽BGP->新加坡 02
-      - 🇸🇬 cmgz0183.mmkker.xyz:9781/#Maikr测试节点 安徽BGP->新加坡 02
-      - 🇺🇸 ahlt.mmkker.xyz:9782/#Maikr测试节点 安徽BGP->美国波特兰 01
-      - 🇨🇳 ahlt.mmkker.xyz:9801/#Maikr安徽BGP->台湾 01
-      - 🇭🇰 ahlt.mmkker.xyz:9802/#Maikr安徽BGP->香港 03
-      - 🇦🇺 ahlt.mmkker.xyz:9803/#Maikr测试节点 安徽BGP->澳大利亚 01
-      - 🇨🇦 ahlt.mmkker.xyz:9804/#Maikr测试节点 安徽BGP->加拿大 01
-      - 🇬🇧 ahlt.mmkker.xyz:9805/#Maikr安徽BGP->英国伦敦 01
-      - 🇩🇪 ahlt.mmkker.xyz:9806/#Maikr测试节点 安徽BGP->德国法兰克福 01
-      - 🇫🇷 ahlt.mmkker.xyz:9807/#Maikr安徽BGP->法国巴黎 01
-      - 🇮🇪 ahlt.mmkker.xyz:9808/#Maikr安徽BGP->爱尔兰 01
-      - 🇯🇵 ahlt.mmkker.xyz:9008/#Maikr安徽BGP->日本东京 02
-      - 🇯🇵 ahlt.mmkker.xyz:9062/#Maikr安徽BGP->日本东京 04
-      - 🇯🇵 ahlt.mmkker.xyz:9058/#Maikr安徽BGP->日本大阪 03
-      - 🇸🇬 ahlt.mmkker.xyz:9063/#Maikr安徽BGP->新加坡 03
-      - 🇰🇷 ahlt.mmkker.xyz:9061/#Maikr安徽BGP->韩国首尔 02
-      - 🇯🇵 ahlt.mmkker.xyz:9059/#Maikr安徽BGP->日本东京 05
-      - 🇯🇵 ahlt.mmkker.xyz:9056/#Maikr安徽BGP->日本东京 06
-      - 🇯🇵 ahlt.mmkker.xyz:9057/#Maikr安徽BGP->日本东京 07
+      - 🇯🇵 ahlt.mmkker.xyz:9201/#安徽BGP->日本东京 05
+      - 🇯🇵 ahlt.mmkker.xyz:9202/#安徽BGP->日本东京 08
+      - 🇯🇵 ahlt.mmkker.xyz:9203/#安徽BGP->日本东京 08
+      - 🇯🇵 ahlt.mmkker.xyz:9204/#安徽BGP->日本东京 05
+      - 🇯🇵 ahlt.mmkker.xyz:9205/#安徽BGP->日本东京 05
+      - 🇰🇷 ahlt.mmkker.xyz:9206/#安徽BGP->韩国首尔 01
+      - 🇯🇵 ahlt.mmkker.xyz:9207/#安徽BGP->日本东京 01
+      - 🇸🇬 ahlt.mmkker.xyz:9208/#安徽BGP->新加坡 02
+      - 🇺🇸 ahlt.mmkker.xyz:9209/#安徽BGP->美国波特兰 01
+      - 🇰🇷 ahlt.mmkker.xyz:9210/#安徽BGP->韩国首尔 02
+      - 🇯🇵 ahlt.mmkker.xyz:9211/#安徽BGP->日本
+      - 🇸🇬 ahlt.mmkker.xyz:9212/#安徽BGP->新加坡
+      - 🇺🇸 ahlt.mmkker.xyz:9213/#安徽BGP->美国
+      - 🇨🇳 ahlt.mmkker.xyz:9214/#安徽BGP->台湾 01
+      - 🇭🇰 ahlt.mmkker.xyz:9215/#安徽BGP->香港 03
+      - 🇦🇺 ahlt.mmkker.xyz:9216/#安徽BGP->澳大利亚 01
+      - 🇨🇦 ahlt.mmkker.xyz:9217/#安徽BGP->加拿大 01
+      - 🇬🇧 ahlt.mmkker.xyz:9218/#安徽BGP->英国伦敦 01
+      - 🇩🇪 ahlt.mmkker.xyz:9219/#安徽BGP->德国法兰克福 01
+      - 🇫🇷 ahlt.mmkker.xyz:9220/#安徽BGP->法国巴黎 01
+      - 🇮🇪 ahlt.mmkker.xyz:9221/#安徽BGP->爱尔兰 01
+      - 🇸🇬 cmgz0183.mmkker.xyz:9680/#广州BGP->新加坡 01
+      - 🇭🇰 cmgz0183.mmkker.xyz:9681/#广州BGP->香港 04
+      - 🇭🇰 cmgz0183.mmkker.xyz:9682/#广州BGP->香港 02
+      - 🇯🇵 cmgz0183.mmkker.xyz:9683/#广州BGP->日本 05
+      - 🇭🇰 cmgz0241.mmkker.xyz:9001/#广州移动->香港 04
+      - 🇭🇰 cmgz0241.mmkker.xyz:9002/#广州移动->香港 05
+      - 🇭🇰 cmgz0241.mmkker.xyz:9003/#广州移动->香港 06
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 cmgz0183.mmkker.xyz:9777/#Maikr测试节点 广州BGP->新加坡 01
-      - 🇭🇰 cmgz0183.mmkker.xyz:27777/#Maikr测试节点 广州BGP->香港 01
-      - 🇰🇷 ahlt.mmkker.xyz:9777/#Maikr安徽BGP->韩国首尔 01
-      - 🇯🇵 ahlt.mmkker.xyz:9780/#Maikr安徽BGP->日本东京 01
-      - 🇸🇬 ahlt.mmkker.xyz:9781/#Maikr安徽BGP->新加坡 02
-      - 🇸🇬 cmgz0183.mmkker.xyz:9781/#Maikr测试节点 安徽BGP->新加坡 02
-      - 🇺🇸 ahlt.mmkker.xyz:9782/#Maikr测试节点 安徽BGP->美国波特兰 01
-      - 🇨🇳 ahlt.mmkker.xyz:9801/#Maikr安徽BGP->台湾 01
-      - 🇭🇰 ahlt.mmkker.xyz:9802/#Maikr安徽BGP->香港 03
-      - 🇦🇺 ahlt.mmkker.xyz:9803/#Maikr测试节点 安徽BGP->澳大利亚 01
-      - 🇨🇦 ahlt.mmkker.xyz:9804/#Maikr测试节点 安徽BGP->加拿大 01
-      - 🇬🇧 ahlt.mmkker.xyz:9805/#Maikr安徽BGP->英国伦敦 01
-      - 🇩🇪 ahlt.mmkker.xyz:9806/#Maikr测试节点 安徽BGP->德国法兰克福 01
-      - 🇫🇷 ahlt.mmkker.xyz:9807/#Maikr安徽BGP->法国巴黎 01
-      - 🇮🇪 ahlt.mmkker.xyz:9808/#Maikr安徽BGP->爱尔兰 01
-      - 🇯🇵 ahlt.mmkker.xyz:9008/#Maikr安徽BGP->日本东京 02
-      - 🇯🇵 ahlt.mmkker.xyz:9062/#Maikr安徽BGP->日本东京 04
-      - 🇯🇵 ahlt.mmkker.xyz:9058/#Maikr安徽BGP->日本大阪 03
-      - 🇸🇬 ahlt.mmkker.xyz:9063/#Maikr安徽BGP->新加坡 03
-      - 🇰🇷 ahlt.mmkker.xyz:9061/#Maikr安徽BGP->韩国首尔 02
-      - 🇯🇵 ahlt.mmkker.xyz:9059/#Maikr安徽BGP->日本东京 05
-      - 🇯🇵 ahlt.mmkker.xyz:9056/#Maikr安徽BGP->日本东京 06
-      - 🇯🇵 ahlt.mmkker.xyz:9057/#Maikr安徽BGP->日本东京 07
+      - 🇯🇵 ahlt.mmkker.xyz:9201/#安徽BGP->日本东京 05
+      - 🇯🇵 ahlt.mmkker.xyz:9202/#安徽BGP->日本东京 08
+      - 🇯🇵 ahlt.mmkker.xyz:9203/#安徽BGP->日本东京 08
+      - 🇯🇵 ahlt.mmkker.xyz:9204/#安徽BGP->日本东京 05
+      - 🇯🇵 ahlt.mmkker.xyz:9205/#安徽BGP->日本东京 05
+      - 🇰🇷 ahlt.mmkker.xyz:9206/#安徽BGP->韩国首尔 01
+      - 🇯🇵 ahlt.mmkker.xyz:9207/#安徽BGP->日本东京 01
+      - 🇸🇬 ahlt.mmkker.xyz:9208/#安徽BGP->新加坡 02
+      - 🇺🇸 ahlt.mmkker.xyz:9209/#安徽BGP->美国波特兰 01
+      - 🇰🇷 ahlt.mmkker.xyz:9210/#安徽BGP->韩国首尔 02
+      - 🇯🇵 ahlt.mmkker.xyz:9211/#安徽BGP->日本
+      - 🇸🇬 ahlt.mmkker.xyz:9212/#安徽BGP->新加坡
+      - 🇺🇸 ahlt.mmkker.xyz:9213/#安徽BGP->美国
+      - 🇨🇳 ahlt.mmkker.xyz:9214/#安徽BGP->台湾 01
+      - 🇭🇰 ahlt.mmkker.xyz:9215/#安徽BGP->香港 03
+      - 🇦🇺 ahlt.mmkker.xyz:9216/#安徽BGP->澳大利亚 01
+      - 🇨🇦 ahlt.mmkker.xyz:9217/#安徽BGP->加拿大 01
+      - 🇬🇧 ahlt.mmkker.xyz:9218/#安徽BGP->英国伦敦 01
+      - 🇩🇪 ahlt.mmkker.xyz:9219/#安徽BGP->德国法兰克福 01
+      - 🇫🇷 ahlt.mmkker.xyz:9220/#安徽BGP->法国巴黎 01
+      - 🇮🇪 ahlt.mmkker.xyz:9221/#安徽BGP->爱尔兰 01
+      - 🇸🇬 cmgz0183.mmkker.xyz:9680/#广州BGP->新加坡 01
+      - 🇭🇰 cmgz0183.mmkker.xyz:9681/#广州BGP->香港 04
+      - 🇭🇰 cmgz0183.mmkker.xyz:9682/#广州BGP->香港 02
+      - 🇯🇵 cmgz0183.mmkker.xyz:9683/#广州BGP->日本 05
+      - 🇭🇰 cmgz0241.mmkker.xyz:9001/#广州移动->香港 04
+      - 🇭🇰 cmgz0241.mmkker.xyz:9002/#广州移动->香港 05
+      - 🇭🇰 cmgz0241.mmkker.xyz:9003/#广州移动->香港 06
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -250,31 +290,36 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 cmgz0183.mmkker.xyz:9777/#Maikr测试节点 广州BGP->新加坡 01
-      - 🇭🇰 cmgz0183.mmkker.xyz:27777/#Maikr测试节点 广州BGP->香港 01
-      - 🇰🇷 ahlt.mmkker.xyz:9777/#Maikr安徽BGP->韩国首尔 01
-      - 🇯🇵 ahlt.mmkker.xyz:9780/#Maikr安徽BGP->日本东京 01
-      - 🇸🇬 ahlt.mmkker.xyz:9781/#Maikr安徽BGP->新加坡 02
-      - 🇸🇬 cmgz0183.mmkker.xyz:9781/#Maikr测试节点 安徽BGP->新加坡 02
-      - 🇺🇸 ahlt.mmkker.xyz:9782/#Maikr测试节点 安徽BGP->美国波特兰 01
-      - 🇨🇳 ahlt.mmkker.xyz:9801/#Maikr安徽BGP->台湾 01
-      - 🇭🇰 ahlt.mmkker.xyz:9802/#Maikr安徽BGP->香港 03
-      - 🇦🇺 ahlt.mmkker.xyz:9803/#Maikr测试节点 安徽BGP->澳大利亚 01
-      - 🇨🇦 ahlt.mmkker.xyz:9804/#Maikr测试节点 安徽BGP->加拿大 01
-      - 🇬🇧 ahlt.mmkker.xyz:9805/#Maikr安徽BGP->英国伦敦 01
-      - 🇩🇪 ahlt.mmkker.xyz:9806/#Maikr测试节点 安徽BGP->德国法兰克福 01
-      - 🇫🇷 ahlt.mmkker.xyz:9807/#Maikr安徽BGP->法国巴黎 01
-      - 🇮🇪 ahlt.mmkker.xyz:9808/#Maikr安徽BGP->爱尔兰 01
-      - 🇯🇵 ahlt.mmkker.xyz:9008/#Maikr安徽BGP->日本东京 02
-      - 🇯🇵 ahlt.mmkker.xyz:9062/#Maikr安徽BGP->日本东京 04
-      - 🇯🇵 ahlt.mmkker.xyz:9058/#Maikr安徽BGP->日本大阪 03
-      - 🇸🇬 ahlt.mmkker.xyz:9063/#Maikr安徽BGP->新加坡 03
-      - 🇰🇷 ahlt.mmkker.xyz:9061/#Maikr安徽BGP->韩国首尔 02
-      - 🇯🇵 ahlt.mmkker.xyz:9059/#Maikr安徽BGP->日本东京 05
-      - 🇯🇵 ahlt.mmkker.xyz:9056/#Maikr安徽BGP->日本东京 06
-      - 🇯🇵 ahlt.mmkker.xyz:9057/#Maikr安徽BGP->日本东京 07
+      - 🇯🇵 ahlt.mmkker.xyz:9201/#安徽BGP->日本东京 05
+      - 🇯🇵 ahlt.mmkker.xyz:9202/#安徽BGP->日本东京 08
+      - 🇯🇵 ahlt.mmkker.xyz:9203/#安徽BGP->日本东京 08
+      - 🇯🇵 ahlt.mmkker.xyz:9204/#安徽BGP->日本东京 05
+      - 🇯🇵 ahlt.mmkker.xyz:9205/#安徽BGP->日本东京 05
+      - 🇰🇷 ahlt.mmkker.xyz:9206/#安徽BGP->韩国首尔 01
+      - 🇯🇵 ahlt.mmkker.xyz:9207/#安徽BGP->日本东京 01
+      - 🇸🇬 ahlt.mmkker.xyz:9208/#安徽BGP->新加坡 02
+      - 🇺🇸 ahlt.mmkker.xyz:9209/#安徽BGP->美国波特兰 01
+      - 🇰🇷 ahlt.mmkker.xyz:9210/#安徽BGP->韩国首尔 02
+      - 🇯🇵 ahlt.mmkker.xyz:9211/#安徽BGP->日本
+      - 🇸🇬 ahlt.mmkker.xyz:9212/#安徽BGP->新加坡
+      - 🇺🇸 ahlt.mmkker.xyz:9213/#安徽BGP->美国
+      - 🇨🇳 ahlt.mmkker.xyz:9214/#安徽BGP->台湾 01
+      - 🇭🇰 ahlt.mmkker.xyz:9215/#安徽BGP->香港 03
+      - 🇦🇺 ahlt.mmkker.xyz:9216/#安徽BGP->澳大利亚 01
+      - 🇨🇦 ahlt.mmkker.xyz:9217/#安徽BGP->加拿大 01
+      - 🇬🇧 ahlt.mmkker.xyz:9218/#安徽BGP->英国伦敦 01
+      - 🇩🇪 ahlt.mmkker.xyz:9219/#安徽BGP->德国法兰克福 01
+      - 🇫🇷 ahlt.mmkker.xyz:9220/#安徽BGP->法国巴黎 01
+      - 🇮🇪 ahlt.mmkker.xyz:9221/#安徽BGP->爱尔兰 01
+      - 🇸🇬 cmgz0183.mmkker.xyz:9680/#广州BGP->新加坡 01
+      - 🇭🇰 cmgz0183.mmkker.xyz:9681/#广州BGP->香港 04
+      - 🇭🇰 cmgz0183.mmkker.xyz:9682/#广州BGP->香港 02
+      - 🇯🇵 cmgz0183.mmkker.xyz:9683/#广州BGP->日本 05
+      - 🇭🇰 cmgz0241.mmkker.xyz:9001/#广州移动->香港 04
+      - 🇭🇰 cmgz0241.mmkker.xyz:9002/#广州移动->香港 05
+      - 🇭🇰 cmgz0241.mmkker.xyz:9003/#广州移动->香港 06
 rules:
- - DOMAIN-SUFFIX,acl4ssr,🎯 全球直连
+ - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-loopback,🎯 全球直连
  - DOMAIN-SUFFIX,local,🎯 全球直连
@@ -305,6 +350,7 @@ rules:
  - DOMAIN,dl.google.com,🎯 全球直连
  - DOMAIN-SUFFIX,googletraveladservices.com,🎯 全球直连
  - DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net,🎯 全球直连
+ - DOMAIN,origin-a.akamaihd.net,🎯 全球直连
  - DOMAIN,livew.l.qq.com,🎯 全球直连
  - DOMAIN,vd.l.qq.com,🎯 全球直连
  - DOMAIN,analytics.strava.com,🎯 全球直连
@@ -955,7 +1001,6 @@ rules:
  - DOMAIN-SUFFIX,oimagea2.ydstatic.com,🍃 应用净化
  - DOMAIN-SUFFIX,pagechoice.net,🍃 应用净化
  - DOMAIN-SUFFIX,prom.gome.com.cn,🍃 应用净化
- - DOMAIN-SUFFIX,push.126.net,🍃 应用净化
  - DOMAIN-SUFFIX,qchannel0d.cn,🍃 应用净化
  - DOMAIN-SUFFIX,qt002x.corp.youdao.com,🍃 应用净化
  - DOMAIN-SUFFIX,rlogs.youdao.com,🍃 应用净化
@@ -1192,7 +1237,6 @@ rules:
  - DOMAIN-SUFFIX,mobads.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,mobads.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,mpro.baidu.com,🍃 应用净化
- - DOMAIN-SUFFIX,msite.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,mtj.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,mtj.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,neirong.baidu.com,🍃 应用净化
@@ -2023,19 +2067,6 @@ rules:
  - DOMAIN-SUFFIX,googletagservices.com,🎯 全球直连
  - DOMAIN-SUFFIX,gtm.oasisfeng.com,🎯 全球直连
  - DOMAIN-SUFFIX,imasdk.googleapis.com,🎯 全球直连
- - DOMAIN-SUFFIX,kh.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,khm.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,khm.googleapis.com,🎯 全球直连
- - DOMAIN-SUFFIX,khm0.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,khm0.googleapis.com,🎯 全球直连
- - DOMAIN-SUFFIX,khm1.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,khm1.googleapis.com,🎯 全球直连
- - DOMAIN-SUFFIX,khm2.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,khm2.googleapis.com,🎯 全球直连
- - DOMAIN-SUFFIX,khm3.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,khm3.googleapis.com,🎯 全球直连
- - DOMAIN-SUFFIX,khmdb.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,khmdb.googleapis.com,🎯 全球直连
  - DOMAIN-SUFFIX,mtalk.google.com,🎯 全球直连
  - DOMAIN-SUFFIX,ocsp.pki.goog,🎯 全球直连
  - DOMAIN-SUFFIX,recaptcha.net,🎯 全球直连
@@ -2202,33 +2233,18 @@ rules:
  - DOMAIN-SUFFIX,bahamut.com.tw,🌍 国外媒体
  - DOMAIN-SUFFIX,gamer.com.tw,🌍 国外媒体
  - DOMAIN-SUFFIX,hinet.net,🌍 国外媒体
+ - DOMAIN-KEYWORD,livedazn,🌍 国外媒体
  - DOMAIN-KEYWORD,voddazn,🌍 国外媒体
  - DOMAIN,d151l6v8er5bdm.cloudfront.net,🌍 国外媒体
- - DOMAIN-SUFFIX,amplify.outbrain.com,🌍 国外媒体
- - DOMAIN-SUFFIX,bluekai.com,🌍 国外媒体
- - DOMAIN-SUFFIX,cdn.cookielaw.org,🌍 国外媒体
- - DOMAIN-SUFFIX,control.kochava.com,🌍 国外媒体
  - DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net,🌍 国外媒体
  - DOMAIN-SUFFIX,d1sgwhnao7452x.cloudfront.net,🌍 国外媒体
  - DOMAIN-SUFFIX,dazn-api.com,🌍 国外媒体
  - DOMAIN-SUFFIX,dazn.com,🌍 国外媒体
  - DOMAIN-SUFFIX,dazndn.com,🌍 国外媒体
- - DOMAIN-SUFFIX,dc2-vodhls-perform.secure.footprint.net,🌍 国外媒体
- - DOMAIN-SUFFIX,dca-ll-livedazn-dznlivejp.s.llnwi.net,🌍 国外媒体
- - DOMAIN-SUFFIX,dca-ll-voddazn-dznvodjp.s.llnwi.net,🌍 国外媒体
- - DOMAIN-SUFFIX,dcalivedazn.akamaized.net,🌍 国外媒体
  - DOMAIN-SUFFIX,dcblivedazn.akamaized.net,🌍 国外媒体
- - DOMAIN-SUFFIX,docomo.ne.jp,🌍 国外媒体
  - DOMAIN-SUFFIX,indazn.com,🌍 国外媒体
  - DOMAIN-SUFFIX,indaznlab.com,🌍 国外媒体
- - DOMAIN-SUFFIX,intercom.io,🌍 国外媒体
- - DOMAIN-SUFFIX,pause-confirmed-marketing-images-prod.s3.eu-central-1.amazonaws.com,🌍 国外媒体
- - DOMAIN-SUFFIX,perfops.doracdn.com,🌍 国外媒体
- - DOMAIN-SUFFIX,rest.zuora.com,🌍 国外媒体
- - DOMAIN-SUFFIX,s.yimg.jp,🌍 国外媒体
  - DOMAIN-SUFFIX,sentry.io,🌍 国外媒体
- - DOMAIN-SUFFIX,vjs.zencdn.net,🌍 国外媒体
- - DOMAIN-SUFFIX,yahoo.co.jp,🌍 国外媒体
  - DOMAIN-SUFFIX,deezer.com,🌍 国外媒体
  - DOMAIN-SUFFIX,dzcdn.net,🌍 国外媒体
  - DOMAIN,cdn.registerdisney.go.com,🌍 国外媒体
@@ -2269,19 +2285,23 @@ rules:
  - DOMAIN-SUFFIX,akamaized.net,🌍 国外媒体
  - DOMAIN-SUFFIX,foxplus.com,🌍 国外媒体
  - DOMAIN-SUFFIX,theplatform.com,🌍 国外媒体
- - DOMAIN-SUFFIX,bcbolthboa-a.akamaihd.net,🌍 国外媒体
- - DOMAIN-SUFFIX,cf-images.ap-southeast-1.prod.boltdns.net,🌍 国外媒体
- - DOMAIN-SUFFIX,execute-api.ap-southeast-1.amazonaws.com,🌍 国外媒体
- - DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com,🌍 国外媒体
+ - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🌍 国外媒体
+ - DOMAIN,bcbolthboa-a.akamaihd.net,🌍 国外媒体
+ - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,🌍 国外媒体
+ - DOMAIN,dai3fd1oh325y.cloudfront.net,🌍 国外媒体
+ - DOMAIN,hboasia1-i.akamaihd.net,🌍 国外媒体
+ - DOMAIN,hboasia2-i.akamaihd.net,🌍 国外媒体
+ - DOMAIN,hboasia3-i.akamaihd.net,🌍 国外媒体
+ - DOMAIN,hboasia4-i.akamaihd.net,🌍 国外媒体
+ - DOMAIN,hboasia5-i.akamaihd.net,🌍 国外媒体
+ - DOMAIN,players.brightcove.net,🌍 国外媒体
+ - DOMAIN,s3-ap-southeast-1.amazonaws.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hbo.com,🌍 国外媒体
- - DOMAIN-SUFFIX,hboasia.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hbogo.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hbogoasia.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hbogoasia.hk,🌍 国外媒体
  - DOMAIN-SUFFIX,hbomax.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hbonow.com,🌍 国外媒体
- - DOMAIN-SUFFIX,manifest.prod.boltdns.net,🌍 国外媒体
- - DOMAIN-SUFFIX,s3-ap-southeast-1.amazonaws.com,🌍 国外媒体
  - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🌍 国外媒体
  - DOMAIN,bcbolthboa-a.akamaihd.net,🌍 国外媒体
  - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,🌍 国外媒体
@@ -2697,6 +2717,24 @@ rules:
  - DOMAIN-SUFFIX,ytimg.com,🚀 节点选择
  - IP-CIDR,74.125.0.0/16,🚀 节点选择,no-resolve
  - IP-CIDR,173.194.0.0/16,🚀 节点选择,no-resolve
+ - IP-CIDR,120.232.181.162/32,🚀 节点选择,no-resolve
+ - IP-CIDR,120.241.147.226/32,🚀 节点选择,no-resolve
+ - IP-CIDR,120.253.253.226/32,🚀 节点选择,no-resolve
+ - IP-CIDR,120.253.255.162/32,🚀 节点选择,no-resolve
+ - IP-CIDR,120.253.255.34/32,🚀 节点选择,no-resolve
+ - IP-CIDR,120.253.255.98/32,🚀 节点选择,no-resolve
+ - IP-CIDR,180.163.150.162/32,🚀 节点选择,no-resolve
+ - IP-CIDR,180.163.150.34/32,🚀 节点选择,no-resolve
+ - IP-CIDR,180.163.151.162/32,🚀 节点选择,no-resolve
+ - IP-CIDR,180.163.151.34/32,🚀 节点选择,no-resolve
+ - IP-CIDR,203.208.39.0/24,🚀 节点选择,no-resolve
+ - IP-CIDR,203.208.40.0/24,🚀 节点选择,no-resolve
+ - IP-CIDR,203.208.41.0/24,🚀 节点选择,no-resolve
+ - IP-CIDR,203.208.43.0/24,🚀 节点选择,no-resolve
+ - IP-CIDR,203.208.50.0/24,🚀 节点选择,no-resolve
+ - IP-CIDR,220.181.174.162/32,🚀 节点选择,no-resolve
+ - IP-CIDR,220.181.174.226/32,🚀 节点选择,no-resolve
+ - IP-CIDR,220.181.174.34/32,🚀 节点选择,no-resolve
  - DOMAIN-SUFFIX,cdninstagram.com,🚀 节点选择
  - DOMAIN-SUFFIX,instagram.com,🚀 节点选择
  - DOMAIN-SUFFIX,instagr.am,🚀 节点选择
